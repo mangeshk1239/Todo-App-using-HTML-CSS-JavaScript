@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+.main-container {
+    background-color: rebeccapurple;
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.inputBox {
+    background-color: rgb(165, 142, 188);
+    color: black;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+    resize: none;
+    font-size: 20px;
+    border: 3px solid black;
+}
+
+.addBtn {
+    width: 80px;
+    height: 40px;
+    position: relative;
+    bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+    background-color: rebeccapurple;
+    border: 3px solid black;
+}
+
+.todoDiv {
+    color: black;
+    background-color: rgb(134, 92, 176);
+    font-size: 25px;
+    margin-left: 21px;
+    margin-bottom: 10px;
+    width: 443px;
+    height: 50px;
+    border-radius: 5px;  
+    border: 3px solid black;  
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.deleteBtn {
+    font-size: 25px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: rebeccapurple;
+    border: 3px solid black;
+}
+
+.checkBtn {
+    font-size: 25px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: rebeccapurple;
+    border: 3px solid black;
+}
+
+.btnDiv {
+    position: relative;
+    left: 348px;
+    bottom: 32px;
+}
