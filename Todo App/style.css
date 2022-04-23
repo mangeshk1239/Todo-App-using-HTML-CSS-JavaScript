@@ -9,6 +9,7 @@ body {
     min-height: 100vh;
     margin: 0;
     background-color: black;
+    overflow: hidden;
 }
 
 .main-container {
@@ -67,6 +68,8 @@ button:hover {
     font-size: 25px;
     margin-top: 8px;
     border-radius: 5px;
+    width: 40px;
+    height: 35px;
     border: none;
     background-color: rebeccapurple;
     border: 3px solid black;
@@ -76,6 +79,8 @@ button:hover {
     font-size: 25px;
     margin-top: 8px;
     border-radius: 5px;
+    width: 40px;
+    height: 35px;
     border: none;
     background-color: rebeccapurple;
     border: 3px solid black;
@@ -85,4 +90,90 @@ button:hover {
     position: relative;
     left: 348px;
     bottom: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        background-color: black;
+        overflow: hidden;
+    }
+
+    .main-container {
+        background-color: rebeccapurple;
+        width: 350px;
+        height: 500px;
+        border-radius: 5px;
+    }
+
+    .inputBox {
+        background-color: rgb(165, 142, 188);
+        color: black;
+        margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 5px;
+        width: 260px;
+        height: 40px;
+        resize: none;
+        font-size: 20px;
+        border: 3px solid black;
+    }
+
+    .addBtn {
+        width: 50px;
+        height: 40px;
+        position: relative;
+        bottom: 15px;
+        border-radius: 5px;
+        border: none;
+        margin-left: 10px;
+        background-color: rebeccapurple;
+        border: 3px solid black;
+    }
+
+    .todoDiv {
+        color: black;
+        background-color: rgb(134, 92, 176);
+        font-size: 25px;
+        margin-left: 21px;
+        margin-bottom: 10px;
+        width: 320px;
+        height: 50px;
+        border-radius: 5px;  
+        border: 3px solid black;  
+    }
+
+    .deleteBtn {
+        font-size: 25px;
+        margin-top: 8px;
+        border-radius: 5px;
+        width: 40px;
+        height: 35px;
+        border: none;
+        background-color: rebeccapurple;
+        border: 3px solid black;
+    }
+    
+    .checkBtn {
+        font-size: 25px;
+        margin-top: 8px;
+        border-radius: 5px;
+        width: 40px;
+        height: 35px;
+        border: none;
+        background-color: rebeccapurple;
+        border: 3px solid black;
+    }
+
+    .btnDiv {
+        position: relative;
+        left: 225px;
+        bottom: 32px;
+    }
+
 }
